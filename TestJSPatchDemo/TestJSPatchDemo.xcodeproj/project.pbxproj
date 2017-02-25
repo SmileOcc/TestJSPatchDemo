@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4613D51A1E4C0D2E004D0D9B /* FFEasyLifeHomeCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 4613D5171E4C0D2E004D0D9B /* FFEasyLifeHomeCtrl.js */; };
+		4613D51B1E4C0D2E004D0D9B /* FFEasyLifePictureCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 4613D5181E4C0D2E004D0D9B /* FFEasyLifePictureCtrl.js */; };
+		4613D51C1E4C0D2E004D0D9B /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 4613D5191E4C0D2E004D0D9B /* main.js */; };
+		469879261E4AA6D200D1DA5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 469879251E4AA6D200D1DA5F /* main.m */; };
+		469879291E4AA6D200D1DA5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 469879281E4AA6D200D1DA5F /* AppDelegate.m */; };
+		4698792C1E4AA6D200D1DA5F /* FFEasyLifeHomeCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698792B1E4AA6D200D1DA5F /* FFEasyLifeHomeCtrl.m */; };
+		4698792F1E4AA6D200D1DA5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4698792D1E4AA6D200D1DA5F /* Main.storyboard */; };
+		469879311E4AA6D200D1DA5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469879301E4AA6D200D1DA5F /* Assets.xcassets */; };
+		469879341E4AA6D200D1DA5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469879321E4AA6D200D1DA5F /* LaunchScreen.storyboard */; };
+		469879421E4AB4DC00D1DA5F /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 469879411E4AB4DC00D1DA5F /* 1.jpeg */; };
+		469A95C11E553B5D007D007E /* FFTestDeadlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 469A95C01E553B5D007D007E /* FFTestDeadlock.m */; };
+		469A95C41E554A59007D007E /* FFTestProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 469A95C31E554A59007D007E /* FFTestProtocol.m */; };
+		469A95C61E554A95007D007E /* FFTestProtocol.js in Resources */ = {isa = PBXBuildFile; fileRef = 469A95C51E554A95007D007E /* FFTestProtocol.js */; };
+		46D3D8871E52989100E3B117 /* YSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D3D8861E52989100E3B117 /* YSAlertView.m */; };
+		46D3D88A1E529BDC00E3B117 /* FFPictureCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D3D8891E529BDC00E3B117 /* FFPictureCtrl.m */; };
+		46D3D88E1E52AC8E00E3B117 /* FFPictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D3D88D1E52AC8E00E3B117 /* FFPictureCell.m */; };
+		46D3D8911E52ACB900E3B117 /* FFPictureHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D3D8901E52ACB900E3B117 /* FFPictureHeaderView.m */; };
+		46D3D8941E52ACD900E3B117 /* FFPictureFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D3D8931E52ACD900E3B117 /* FFPictureFooterView.m */; };
+		46D3D8971E52B56D00E3B117 /* FFPictureCtrl.js in Resources */ = {isa = PBXBuildFile; fileRef = 46D3D8961E52B56D00E3B117 /* FFPictureCtrl.js */; };
+		46D3D89A1E52E71E00E3B117 /* FFTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D3D8991E52E71E00E3B117 /* FFTestObject.m */; };
+		46E49E181E54395300578C22 /* FFRefactorHeader.js in Resources */ = {isa = PBXBuildFile; fileRef = 46E49E171E54395300578C22 /* FFRefactorHeader.js */; };
+		46E49E1B1E543D6100578C22 /* FFMacroSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E49E1A1E543D6100578C22 /* FFMacroSupport.m */; };
+		46E49E241E545CAA00578C22 /* JPMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E49E201E545CAA00578C22 /* JPMemory.m */; };
+		56113D3F041095CC1E92560F /* libPods-TestJSPatchDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC03CFFE666B135F99EB2C9F /* libPods-TestJSPatchDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4613D5171E4C0D2E004D0D9B /* FFEasyLifeHomeCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FFEasyLifeHomeCtrl.js; sourceTree = "<group>"; };
+		4613D5181E4C0D2E004D0D9B /* FFEasyLifePictureCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FFEasyLifePictureCtrl.js; sourceTree = "<group>"; };
+		4613D5191E4C0D2E004D0D9B /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		469879211E4AA6D100D1DA5F /* TestJSPatchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestJSPatchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		469879251E4AA6D200D1DA5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		469879271E4AA6D200D1DA5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		469879281E4AA6D200D1DA5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4698792A1E4AA6D200D1DA5F /* FFEasyLifeHomeCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFEasyLifeHomeCtrl.h; sourceTree = "<group>"; };
+		4698792B1E4AA6D200D1DA5F /* FFEasyLifeHomeCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFEasyLifeHomeCtrl.m; sourceTree = "<group>"; };
+		4698792E1E4AA6D200D1DA5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		469879301E4AA6D200D1DA5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		469879331E4AA6D200D1DA5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		469879351E4AA6D200D1DA5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		469879411E4AB4DC00D1DA5F /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		469A95BF1E553B5D007D007E /* FFTestDeadlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTestDeadlock.h; sourceTree = "<group>"; };
+		469A95C01E553B5D007D007E /* FFTestDeadlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTestDeadlock.m; sourceTree = "<group>"; };
+		469A95C21E554A59007D007E /* FFTestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTestProtocol.h; sourceTree = "<group>"; };
+		469A95C31E554A59007D007E /* FFTestProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTestProtocol.m; sourceTree = "<group>"; };
+		469A95C51E554A95007D007E /* FFTestProtocol.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FFTestProtocol.js; sourceTree = "<group>"; };
+		46D3D8851E52989100E3B117 /* YSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSAlertView.h; sourceTree = "<group>"; };
+		46D3D8861E52989100E3B117 /* YSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSAlertView.m; sourceTree = "<group>"; };
+		46D3D8881E529BDC00E3B117 /* FFPictureCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFPictureCtrl.h; sourceTree = "<group>"; };
+		46D3D8891E529BDC00E3B117 /* FFPictureCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFPictureCtrl.m; sourceTree = "<group>"; };
+		46D3D88C1E52AC8E00E3B117 /* FFPictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFPictureCell.h; sourceTree = "<group>"; };
+		46D3D88D1E52AC8E00E3B117 /* FFPictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFPictureCell.m; sourceTree = "<group>"; };
+		46D3D88F1E52ACB900E3B117 /* FFPictureHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFPictureHeaderView.h; sourceTree = "<group>"; };
+		46D3D8901E52ACB900E3B117 /* FFPictureHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFPictureHeaderView.m; sourceTree = "<group>"; };
+		46D3D8921E52ACD900E3B117 /* FFPictureFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFPictureFooterView.h; sourceTree = "<group>"; };
+		46D3D8931E52ACD900E3B117 /* FFPictureFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFPictureFooterView.m; sourceTree = "<group>"; };
+		46D3D8951E52AF2000E3B117 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		46D3D8961E52B56D00E3B117 /* FFPictureCtrl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FFPictureCtrl.js; sourceTree = "<group>"; };
+		46D3D8981E52E71E00E3B117 /* FFTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTestObject.h; sourceTree = "<group>"; };
+		46D3D8991E52E71E00E3B117 /* FFTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTestObject.m; sourceTree = "<group>"; };
+		46E49E171E54395300578C22 /* FFRefactorHeader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FFRefactorHeader.js; sourceTree = "<group>"; };
+		46E49E191E543D6100578C22 /* FFMacroSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMacroSupport.h; sourceTree = "<group>"; };
+		46E49E1A1E543D6100578C22 /* FFMacroSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFMacroSupport.m; sourceTree = "<group>"; };
+		46E49E1F1E545CAA00578C22 /* JPMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPMemory.h; sourceTree = "<group>"; };
+		46E49E201E545CAA00578C22 /* JPMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPMemory.m; sourceTree = "<group>"; };
+		77DAD3896A2122FFE6A8E5AD /* Pods-TestJSPatchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestJSPatchDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestJSPatchDemo/Pods-TestJSPatchDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B7B56EAC97EE7861FC4BD742 /* Pods-TestJSPatchDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestJSPatchDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestJSPatchDemo/Pods-TestJSPatchDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BC03CFFE666B135F99EB2C9F /* libPods-TestJSPatchDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestJSPatchDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4698791E1E4AA6D100D1DA5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56113D3F041095CC1E92560F /* libPods-TestJSPatchDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		469879181E4AA6D100D1DA5F = {
+			isa = PBXGroup;
+			children = (
+				469A95C51E554A95007D007E /* FFTestProtocol.js */,
+				4613D5171E4C0D2E004D0D9B /* FFEasyLifeHomeCtrl.js */,
+				4613D5181E4C0D2E004D0D9B /* FFEasyLifePictureCtrl.js */,
+				46D3D8961E52B56D00E3B117 /* FFPictureCtrl.js */,
+				4613D5191E4C0D2E004D0D9B /* main.js */,
+				46E49E171E54395300578C22 /* FFRefactorHeader.js */,
+				469879411E4AB4DC00D1DA5F /* 1.jpeg */,
+				469879231E4AA6D200D1DA5F /* TestJSPatchDemo */,
+				469879221E4AA6D100D1DA5F /* Products */,
+				5A88D7D9AF00AF0C3DF145A5 /* Pods */,
+				C997AC6B3F06295523B35DAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		469879221E4AA6D100D1DA5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				469879211E4AA6D100D1DA5F /* TestJSPatchDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		469879231E4AA6D200D1DA5F /* TestJSPatchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				46E49E1C1E545CAA00578C22 /* JPCFunction */,
+				46D3D8851E52989100E3B117 /* YSAlertView.h */,
+				46D3D8861E52989100E3B117 /* YSAlertView.m */,
+				469879271E4AA6D200D1DA5F /* AppDelegate.h */,
+				469879281E4AA6D200D1DA5F /* AppDelegate.m */,
+				4698792A1E4AA6D200D1DA5F /* FFEasyLifeHomeCtrl.h */,
+				4698792B1E4AA6D200D1DA5F /* FFEasyLifeHomeCtrl.m */,
+				46D3D8881E529BDC00E3B117 /* FFPictureCtrl.h */,
+				46D3D8891E529BDC00E3B117 /* FFPictureCtrl.m */,
+				46D3D8981E52E71E00E3B117 /* FFTestObject.h */,
+				46D3D8991E52E71E00E3B117 /* FFTestObject.m */,
+				469A95BF1E553B5D007D007E /* FFTestDeadlock.h */,
+				469A95C01E553B5D007D007E /* FFTestDeadlock.m */,
+				469A95C21E554A59007D007E /* FFTestProtocol.h */,
+				469A95C31E554A59007D007E /* FFTestProtocol.m */,
+				46E49E191E543D6100578C22 /* FFMacroSupport.h */,
+				46E49E1A1E543D6100578C22 /* FFMacroSupport.m */,
+				46D3D88B1E52AC6800E3B117 /* Picture */,
+				4698792D1E4AA6D200D1DA5F /* Main.storyboard */,
+				469879301E4AA6D200D1DA5F /* Assets.xcassets */,
+				469879321E4AA6D200D1DA5F /* LaunchScreen.storyboard */,
+				469879351E4AA6D200D1DA5F /* Info.plist */,
+				469879241E4AA6D200D1DA5F /* Supporting Files */,
+				46D3D8951E52AF2000E3B117 /* PrefixHeader.pch */,
+			);
+			path = TestJSPatchDemo;
+			sourceTree = "<group>";
+		};
+		469879241E4AA6D200D1DA5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				469879251E4AA6D200D1DA5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46D3D88B1E52AC6800E3B117 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				46D3D88C1E52AC8E00E3B117 /* FFPictureCell.h */,
+				46D3D88D1E52AC8E00E3B117 /* FFPictureCell.m */,
+				46D3D88F1E52ACB900E3B117 /* FFPictureHeaderView.h */,
+				46D3D8901E52ACB900E3B117 /* FFPictureHeaderView.m */,
+				46D3D8921E52ACD900E3B117 /* FFPictureFooterView.h */,
+				46D3D8931E52ACD900E3B117 /* FFPictureFooterView.m */,
+			);
+			name = Picture;
+			sourceTree = "<group>";
+		};
+		46E49E1C1E545CAA00578C22 /* JPCFunction */ = {
+			isa = PBXGroup;
+			children = (
+				46E49E1F1E545CAA00578C22 /* JPMemory.h */,
+				46E49E201E545CAA00578C22 /* JPMemory.m */,
+			);
+			path = JPCFunction;
+			sourceTree = "<group>";
+		};
+		5A88D7D9AF00AF0C3DF145A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77DAD3896A2122FFE6A8E5AD /* Pods-TestJSPatchDemo.debug.xcconfig */,
+				B7B56EAC97EE7861FC4BD742 /* Pods-TestJSPatchDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C997AC6B3F06295523B35DAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC03CFFE666B135F99EB2C9F /* libPods-TestJSPatchDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		469879201E4AA6D100D1DA5F /* TestJSPatchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469879381E4AA6D200D1DA5F /* Build configuration list for PBXNativeTarget "TestJSPatchDemo" */;
+			buildPhases = (
+				1863BB337FAF47F36BC4A0F8 /* [CP] Check Pods Manifest.lock */,
+				4698791D1E4AA6D100D1DA5F /* Sources */,
+				4698791E1E4AA6D100D1DA5F /* Frameworks */,
+				4698791F1E4AA6D100D1DA5F /* Resources */,
+				432C96411D39D9A5C72E6405 /* [CP] Embed Pods Frameworks */,
+				1008AAD4C2627982C7D4D6D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestJSPatchDemo;
+			productName = TestJSPatchDemo;
+			productReference = 469879211E4AA6D100D1DA5F /* TestJSPatchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		469879191E4AA6D100D1DA5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = occ;
+				TargetAttributes = {
+					469879201E4AA6D100D1DA5F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3TUJ8FKFLS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4698791C1E4AA6D100D1DA5F /* Build configuration list for PBXProject "TestJSPatchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 469879181E4AA6D100D1DA5F;
+			productRefGroup = 469879221E4AA6D100D1DA5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				469879201E4AA6D100D1DA5F /* TestJSPatchDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4698791F1E4AA6D100D1DA5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D3D8971E52B56D00E3B117 /* FFPictureCtrl.js in Resources */,
+				469879341E4AA6D200D1DA5F /* LaunchScreen.storyboard in Resources */,
+				469879311E4AA6D200D1DA5F /* Assets.xcassets in Resources */,
+				46E49E181E54395300578C22 /* FFRefactorHeader.js in Resources */,
+				469879421E4AB4DC00D1DA5F /* 1.jpeg in Resources */,
+				4698792F1E4AA6D200D1DA5F /* Main.storyboard in Resources */,
+				469A95C61E554A95007D007E /* FFTestProtocol.js in Resources */,
+				4613D51C1E4C0D2E004D0D9B /* main.js in Resources */,
+				4613D51B1E4C0D2E004D0D9B /* FFEasyLifePictureCtrl.js in Resources */,
+				4613D51A1E4C0D2E004D0D9B /* FFEasyLifeHomeCtrl.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1008AAD4C2627982C7D4D6D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestJSPatchDemo/Pods-TestJSPatchDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1863BB337FAF47F36BC4A0F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		432C96411D39D9A5C72E6405 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestJSPatchDemo/Pods-TestJSPatchDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4698791D1E4AA6D100D1DA5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4698792C1E4AA6D200D1DA5F /* FFEasyLifeHomeCtrl.m in Sources */,
+				469A95C41E554A59007D007E /* FFTestProtocol.m in Sources */,
+				469879291E4AA6D200D1DA5F /* AppDelegate.m in Sources */,
+				46D3D8941E52ACD900E3B117 /* FFPictureFooterView.m in Sources */,
+				46E49E241E545CAA00578C22 /* JPMemory.m in Sources */,
+				46D3D88A1E529BDC00E3B117 /* FFPictureCtrl.m in Sources */,
+				469879261E4AA6D200D1DA5F /* main.m in Sources */,
+				46D3D89A1E52E71E00E3B117 /* FFTestObject.m in Sources */,
+				46E49E1B1E543D6100578C22 /* FFMacroSupport.m in Sources */,
+				46D3D8911E52ACB900E3B117 /* FFPictureHeaderView.m in Sources */,
+				46D3D88E1E52AC8E00E3B117 /* FFPictureCell.m in Sources */,
+				469A95C11E553B5D007D007E /* FFTestDeadlock.m in Sources */,
+				46D3D8871E52989100E3B117 /* YSAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4698792D1E4AA6D200D1DA5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4698792E1E4AA6D200D1DA5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		469879321E4AA6D200D1DA5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				469879331E4AA6D200D1DA5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		469879361E4AA6D200D1DA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		469879371E4AA6D200D1DA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		469879391E4AA6D200D1DA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77DAD3896A2122FFE6A8E5AD /* Pods-TestJSPatchDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3TUJ8FKFLS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TestJSPatchDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = TestJSPatchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Feifan.TestJSPatchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4698793A1E4AA6D200D1DA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B56EAC97EE7861FC4BD742 /* Pods-TestJSPatchDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3TUJ8FKFLS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TestJSPatchDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = TestJSPatchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Feifan.TestJSPatchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4698791C1E4AA6D100D1DA5F /* Build configuration list for PBXProject "TestJSPatchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469879361E4AA6D200D1DA5F /* Debug */,
+				469879371E4AA6D200D1DA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		469879381E4AA6D200D1DA5F /* Build configuration list for PBXNativeTarget "TestJSPatchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469879391E4AA6D200D1DA5F /* Debug */,
+				4698793A1E4AA6D200D1DA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 469879191E4AA6D100D1DA5F /* Project object */;
+}
